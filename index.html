@@ -2,29 +2,153 @@
 <html lang="ar" dir="rtl">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>سياسة الخصوصية — رسمتي</title>
 <style>
-body{font-family:Arial;max-width:800px;
-margin:0 auto;padding:20px;direction:rtl}
-h1{color:#ff6eb4}
-h2{color:#a855f7}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Arial, sans-serif;
+  background: #fdf4ff;
+  color: #333;
+  direction: rtl;
+}
+.header {
+  background: linear-gradient(135deg, #ff6eb4, #a855f7);
+  padding: 40px 20px;
+  text-align: center;
+  color: white;
+}
+.header h1 { font-size: 2rem; margin-bottom: 8px; }
+.header p { font-size: 1rem; opacity: 0.9; }
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+.section {
+  background: white;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 8px rgba(168,85,247,0.1);
+  border-right: 4px solid #a855f7;
+}
+.section h2 {
+  color: #a855f7;
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+}
+.section p {
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+}
+.section ul {
+  padding-right: 20px;
+  color: #555;
+  line-height: 1.8;
+  font-size: 0.95rem;
+}
+.section ul li { margin-bottom: 6px; }
+.date {
+  text-align: center;
+  color: #999;
+  font-size: 0.85rem;
+  margin: 16px 0;
+}
+.footer {
+  background: linear-gradient(135deg, #ff6eb4, #a855f7);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.85rem;
+  margin-top: 30px;
+}
+a { color: #a855f7; }
 </style>
 </head>
 <body>
-<h1>🎨 سياسة الخصوصية — رسمتي</h1>
-<p>آخر تحديث: مايو 2026</p>
-<h2>1. المعلومات التي نجمعها</h2>
-<p>بيانات تسجيل الدخول عبر Google أو Apple
-(اختياري)، تقدم التلوين، إعدادات التطبيق.</p>
-<h2>2. كيف نستخدم المعلومات</h2>
-<p>لحفظ تقدمك في التلوين وتحسين 
-تجربة التطبيق.</p>
-<h2>3. مشاركة البيانات</h2>
-<p>لا نبيع بياناتك لأي طرف ثالث.
-نستخدم Firebase و Google AdMob.</p>
-<h2>4. الأطفال</h2>
-<p>مناسب لجميع الأعمار.</p>
-<h2>5. تواصل معنا</h2>
-<p>sunday2020m@gmail.com</p>
+
+<div class="header">
+  <h1>🎨 سياسة الخصوصية</h1>
+  <p>تطبيق رسمتي — Rasimati</p>
+</div>
+
+<div class="container">
+
+  <p class="date">آخر تحديث: مايو 2026</p>
+
+  <div class="section">
+    <h2>📋 مقدمة</h2>
+    <p>مرحباً بك في تطبيق <strong>رسمتي</strong>. نحن نحترم خصوصيتك ونلتزم بحماية بياناتك الشخصية. توضّح هذه السياسة كيفية جمع معلوماتك واستخدامها وحمايتها عند استخدام التطبيق.</p>
+  </div>
+
+  <div class="section">
+    <h2>📊 المعلومات التي نجمعها</h2>
+    <ul>
+      <li>بيانات تسجيل الدخول عبر Google أو Apple (اختياري)</li>
+      <li>تقدم التلوين والصور المكتملة</li>
+      <li>إعدادات التطبيق المحفوظة على جهازك</li>
+      <li>بيانات الاستخدام الأساسية لتحسين الأداء</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🎯 كيف نستخدم المعلومات</h2>
+    <ul>
+      <li>حفظ تقدمك في التلوين ومزامنته بين أجهزتك</li>
+      <li>تحسين تجربة المستخدم وأداء التطبيق</li>
+      <li>إرسال إشعارات عن الصور الجديدة (مع إمكانية إيقافها)</li>
+      <li>تقديم إعلانات ملائمة عبر Google AdMob</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🔒 مشاركة البيانات</h2>
+    <ul>
+      <li>لا نبيع بياناتك الشخصية لأي طرف ثالث إطلاقاً</li>
+      <li>نستخدم <strong>Firebase</strong> (Google) لحفظ البيانات بأمان</li>
+      <li>نستخدم <strong>Google AdMob</strong> لعرض الإعلانات</li>
+      <li>قد تجمع AdMob بيانات مجهولة الهوية لتحسين الإعلانات</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>👶 حماية الأطفال</h2>
+    <p>تطبيق رسمتي مناسب لجميع الأعمار بما فيها الأطفال. لا نجمع بيانات شخصية من الأطفال دون موافقة ولي الأمر. جميع المحتوى في التطبيق آمن ومناسب لجميع الفئات العمرية.</p>
+  </div>
+
+  <div class="section">
+    <h2>💾 تخزين البيانات وحمايتها</h2>
+    <ul>
+      <li>البيانات المحلية تُحفظ على جهازك فقط</li>
+      <li>البيانات السحابية تُحفظ على Firebase بتشفير كامل</li>
+      <li>يمكنك حذف بياناتك في أي وقت من إعدادات التطبيق</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>📱 الإعلانات</h2>
+    <p>يستخدم التطبيق Google AdMob لعرض الإعلانات. قد تستخدم AdMob معرّف الجهاز لتقديم إعلانات مخصصة. يمكنك إيقاف الإعلانات المخصصة من إعدادات جهازك.</p>
+  </div>
+
+  <div class="section">
+    <h2>🔄 تحديثات السياسة</h2>
+    <p>قد نقوم بتحديث سياسة الخصوصية من وقت لآخر. سنخطرك بأي تغييرات جوهرية عبر إشعار داخل التطبيق. استمرارك في استخدام التطبيق بعد التحديث يعني موافقتك على السياسة الجديدة.</p>
+  </div>
+
+  <div class="section">
+    <h2>📧 تواصل معنا</h2>
+    <p>إذا كان لديك أي سؤال حول سياسة الخصوصية، تواصل معنا:</p>
+    <p><strong>البريد الإلكتروني:</strong> <a href="mailto:sunday2020m@gmail.com">sunday2020m@gmail.com</a></p>
+  </div>
+
+</div>
+
+<div class="footer">
+  © 2026 رسمتي — Rasimati. جميع الحقوق محفوظة.
+</div>
+
 </body>
 </html>
